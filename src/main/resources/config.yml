@@ -3,4 +3,24 @@
 
 # http://github.com/Map4yk/ItemsAPI
 
-items: {}
+items:
+  ТАЛИСМАН_КРУШИТЕЛЯ:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4440
+    id: minecraft:totem_of_undying
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:4.0d,id:"minecraft:673c881f-4886-3a40-acbb-b70ffbc8fbec",operation:"add_value",slot:"offhand",type:"minecraft:max_health"},{amount:3.0d,id:"minecraft:d9bfbef4-9ce8-362b-aa34-93c5ce9b6e9c",operation:"add_value",slot:"offhand",type:"minecraft:attack_damage"},{amount:2.0d,id:"minecraft:95745f63-fdd0-3414-a2c7-fe787565c823",operation:"add_value",slot:"offhand",type:"minecraft:armor_toughness"},{amount:2.0d,id:"minecraft:5781879d-0671-3f3b-9572-0ab386a325c5",operation:"add_value",slot:"offhand",type:"minecraft:armor"}]'
+      minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Легендарный
+        символ.",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Несокрушимая
+        мощь,",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ломающая
+        преграды.",underlined:0b}],text:""}]'
+      minecraft:enchantments: '{"minecraft:unbreaking":3}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments"]}'
+      minecraft:custom_name: '{extra:[{bold:1b,color:"#8D0000",italic:0b,obfuscated:1b,strikethrough:0b,text:"xxx",underlined:0b},{bold:1b,color:"#8D0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        ",underlined:0b},{bold:1b,color:"#990000",italic:0b,obfuscated:0b,strikethrough:0b,text:"Т",underlined:0b},{bold:1b,color:"#A50000",italic:0b,obfuscated:0b,strikethrough:0b,text:"а",underlined:0b},{bold:1b,color:"#B10000",italic:0b,obfuscated:0b,strikethrough:0b,text:"л",underlined:0b},{bold:1b,color:"#BD0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"и",underlined:0b},{bold:1b,color:"#C90000",italic:0b,obfuscated:0b,strikethrough:0b,text:"с",underlined:0b},{bold:1b,color:"#D50000",italic:0b,obfuscated:0b,strikethrough:0b,text:"м",underlined:0b},{bold:1b,color:"#E10000",italic:0b,obfuscated:0b,strikethrough:0b,text:"а",underlined:0b},{bold:1b,color:"#ED0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"н",underlined:0b},{bold:1b,color:"#F90000",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        К",underlined:0b},{bold:1b,color:"#ED0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"р",underlined:0b},{bold:1b,color:"#E10000",italic:0b,obfuscated:0b,strikethrough:0b,text:"у",underlined:0b},{bold:1b,color:"#D50000",italic:0b,obfuscated:0b,strikethrough:0b,text:"ш",underlined:0b},{bold:1b,color:"#C90000",italic:0b,obfuscated:0b,strikethrough:0b,text:"и",underlined:0b},{bold:1b,color:"#BD0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"т",underlined:0b},{bold:1b,color:"#B10000",italic:0b,obfuscated:0b,strikethrough:0b,text:"е",underlined:0b},{bold:1b,color:"#A50000",italic:0b,obfuscated:0b,strikethrough:0b,text:"л",underlined:0b},{bold:1b,color:"#990000",italic:0b,obfuscated:0b,strikethrough:0b,text:"я",underlined:0b},{bold:1b,color:"#8D0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        ",underlined:0b},{bold:1b,color:"#8D0000",italic:0b,obfuscated:1b,strikethrough:0b,text:"xxx",underlined:0b}],text:""}'
+      minecraft:custom_model_data: '{floats:[6.0f]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"minecraft:don-item":"tal-krush","minecraft:ftid":"tal-krush","minecraft:s":[B;126B,-34B,-83B,-84B,-89B,59B,72B,106B,-102B,107B,-38B,91B,-104B,45B,119B,61B],"minecraft:tslevel":3}}'
+    schema_version: 1

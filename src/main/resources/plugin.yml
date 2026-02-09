@@ -1,4 +1,11 @@
 name: ItemsAPI
 version: '1.0'
 main: ru.map4yk.itemsAPI.ItemsAPI
-api-version: '1.21'
+api-version: '1.16'
+
+commands:
+  items:
+    description: Items management
+    usage: /<command> <give|add>
+    permission: ItemsAPI.use
+    aliases: [item, itemsapi]
