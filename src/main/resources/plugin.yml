@@ -1,0 +1,4 @@
+name: ItemsAPI
+version: '1.0'
+main: ru.map4yk.itemsAPI.ItemsAPI
+api-version: '1.21'
