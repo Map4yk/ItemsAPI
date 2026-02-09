@@ -59,6 +59,6 @@ public class MenuPlugin extends JavaPlugin implements CommandExecutor {
 
 ![Меню плагина](./img/menu-screenshot.jpg)
 
-- Не забудьде в Вашем плагине в plugin.yml добавить ```depend: [ItemsAPI]```
+- Не забудьте в Вашем плагине в plugin.yml добавить ```depend: [ItemsAPI]```
 - А также в build.gradle ```compileOnly files('libs/ItemsAPI-1.0.jar')```
 ### ⭐ Если вам нравится этот плагин, поставьте звезду на GitHub!
